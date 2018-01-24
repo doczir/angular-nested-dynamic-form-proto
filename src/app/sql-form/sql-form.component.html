@@ -1,0 +1,16 @@
+<div>
+  <div>
+    <label>Host</label>
+    <input type="text" name="host" [(ngModel)]="connection.config.host" required/>
+  </div>
+
+  <div>
+    <label>DB Name</label>
+    <input type="text" name="dbName" [(ngModel)]="connection.config.dbName" required/>
+  </div>
+
+  <div>
+    <label>DB Pass</label>
+    <input type="password" name="dbPass" [(ngModel)]="connection.config.dbPass" required/>
+  </div>
+</div>
